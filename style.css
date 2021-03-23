@@ -1,0 +1,81 @@
+body{
+  background-image: url(background.jpg);
+  background-position: top;
+  background-size: cover;
+  width:100%;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+  width:70%;
+  background:rgba(0,0,0,0.5);
+  margin: auto;
+  border-radius: 15px;
+  padding:20px;
+  margin-top: 50px;
+
+
+}
+.navbar{
+  width: 700px;
+  height: 30px;
+  background-color:rgb(40,255,0);
+  padding:10px;
+  margin: auto;
+  text-align: center;
+}
+
+header{
+display: block;
+text-align: center;
+color: rgb(40,255,0);
+padding-top: 30px;
+}
+
+ header img{ height: 100px;
+  width: auto;
+}
+
+main {
+  width: 700px;
+  margin: auto;
+  padding-bottom:50px;
+  color:white;
+}
+
+
+div > h2 {
+  display: inline;
+}
+
+.chargelevel1{
+  height: 30px;
+  width: 40%;
+  background-color:#F5B041;
+  border-radius: 5px;
+}
+
+.chargelevel2{
+  height: 30px;
+  width: 70%;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.chargelevel3{
+  height: 30px;
+  width: 25%;
+  background-color: brown;
+  border-radius: 5px;
+}
+
+.monopattino{
+height:40px;
+padding: 40px;
+padding-left: 0;
+
+}
+
+.adress:before {
+content:'\21A6';
+}
